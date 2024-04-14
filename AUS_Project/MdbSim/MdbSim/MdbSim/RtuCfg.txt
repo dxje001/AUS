@@ -1,0 +1,7 @@
+STA 1
+TCP 58163
+
+
+DI_REG  5 4800   0  0      1     0  DI  @DigInputs
+HR_INT  1 2100   0  0      100   0  AO  @Battery
+DO_REG  2 4200   0  0      1     0  DO  @Switch 
